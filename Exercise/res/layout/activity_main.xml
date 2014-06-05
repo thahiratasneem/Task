@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/camera_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="camera" />
+
+    <Button
+        android:id="@+id/phonebook_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/camera_button"
+        android:layout_below="@+id/camera_button"
+        android:layout_marginTop="31dp"
+        android:text="phonebook" />
+
+    <Button
+        android:id="@+id/musicplayer_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/phonebook_button"
+        android:layout_below="@+id/phonebook_button"
+        android:layout_marginTop="26dp"
+        android:text="musicplayer" />
+
+    <Button
+        android:id="@+id/secondactivity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/musicplayer_button"
+        android:layout_below="@+id/musicplayer_button"
+        android:layout_marginTop="41dp"
+        android:text="secondactivity" />
+
+</RelativeLayout>
